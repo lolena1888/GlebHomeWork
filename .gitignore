@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GlebHomeWork/bin/Debug/net6.0
+/GlebHomeWork/obj
+/.vs/GlebHomeWork
