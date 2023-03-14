@@ -7,6 +7,5 @@ while (true)
     if (stan.VerifyPrice(72, price)) break;
     price += 0.01f;
 }
-
 Console.WriteLine($"The price is ${price}. Total paid=${72 * price}");
 
