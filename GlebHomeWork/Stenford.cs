@@ -10,5 +10,10 @@ namespace GlebsApplications
             var price = (priceForOne * num).ToString(CultureInfo.InvariantCulture);
             return (!price.EndsWith(compare) && !price.StartsWith(compare) && price.Contains(compare));
         }
+
+        private void Display(string text)
+        {
+            Console.WriteLine(text);
+        }
     }
 }
